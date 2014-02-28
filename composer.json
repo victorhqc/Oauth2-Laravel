@@ -1,0 +1,27 @@
+{
+	"name": "victorhqc/oauth2-laravel",
+	"description":"OAuth2 Server for Laravel, using https://github.com/bshaffer/oauth2-server-php",
+	"keywords":["oauth2", "laravel", "php"],
+	"type":"library",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Victor Quiroz",
+			"email": "victorhqc@gmail.com",
+			"homepage":"http://victrhqc.com"
+		}
+		],
+	"homepage": "",
+	"require":{
+		"php":">=5.3.9",
+		"laravel/framework": "4.1.*",
+		"bshaffer/oauth2-server-php": "dev-develop",
+		"way/generators": "dev-master"
+	},
+	"autoload": {
+		"classmap": [
+			"src/Victorhqc/OAuth2"
+		],
+		"psr-0": { "Victorhqc\\OAuth2": "src/" }
+	}
+}
